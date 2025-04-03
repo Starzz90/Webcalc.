@@ -59,6 +59,8 @@ function calculate(firstOperand, secondOperand, operator) {
         return firstOperand * secondOperand;
     } else if (operator === '/') {
         return firstOperand / secondOperand;
+    } else if (operator === '**2'){
+        return firstOperand ** firstOperand;
     }
 
     return secondOperand;
