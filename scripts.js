@@ -60,7 +60,7 @@ function calculate(firstOperand, secondOperand, operator) {
     } else if (operator === '/') {
         return firstOperand / secondOperand;
     } else if (operator === '**2'){
-        return firstOperand * firstOperand;
+        return firstOperand ** secondOperand;
     }
 
     return secondOperand;
