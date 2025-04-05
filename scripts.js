@@ -63,6 +63,8 @@ function calculate(firstOperand, secondOperand, operator) {
         return firstOperand ** secondOperand;
     } else if (operator === "Log"){
         return Math.log(firstOperand)/Math.log(secondOperand);
+    } else if (operator === "sqrt"){
+        return Math.pow(firstOperand, 1/secondOperand);
     }
 
     return secondOperand;
