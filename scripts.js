@@ -64,6 +64,7 @@ function calculate(firstOperand, secondOperand, operator) {
     } else if (operator === "Sin"){
         let Rad = firstOperand * (Math.PI / 180);
         result = Math[Operator](rad);
+    }
 
     return secondOperand;
 }
