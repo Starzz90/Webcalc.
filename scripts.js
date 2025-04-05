@@ -61,7 +61,7 @@ function calculate(firstOperand, secondOperand, operator) {
         return firstOperand / secondOperand;
     } else if (operator === '**2'){
         return firstOperand ** secondOperand;
-    } else if (operator === "Log"
+    } else if (operator === "Log"){
         return Math.log(firstOperand)/Math.log(secondOperand);
     }
 
