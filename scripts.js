@@ -61,9 +61,8 @@ function calculate(firstOperand, secondOperand, operator) {
         return firstOperand / secondOperand;
     } else if (operator === '**2'){
         return firstOperand ** secondOperand;
-    } else if (operator === "Sin"){
-        let Rad = firstOperand * (Math.PI / 180);
-        result = Math[Operator](rad);
+    } else if (operator === "Log"
+        return Math.log(firstOperand)/Math.log(secondOperand);
     }
 
     return secondOperand;
