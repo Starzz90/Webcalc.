@@ -65,6 +65,15 @@ function calculate(firstOperand, secondOperand, operator) {
         return Math.log(firstOperand)/Math.log(secondOperand);
     } else if (operator === "sqrt"){
         return Math.pow(firstOperand, 1/secondOperand);
+    } else if (operator === "Factorial"){
+        let result = 1;
+        let i = 1;
+        let number = parseint(firstOperand);
+        while(i <= number){
+            result *= i;
+            i++;
+        }
+       return result;
     }
 
     return secondOperand;
