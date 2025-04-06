@@ -66,10 +66,9 @@ function calculate(firstOperand, secondOperand, operator) {
     } else if (operator === "sqrt"){
         return Math.pow(firstOperand, 1/secondOperand);
     } else if (operator === "Factorial"){
-        let result = 1;
+        let result = firstOperand;
         let i = 1;
-        let number = parseint(firstOperand);
-        while(i <= number){
+        while(i <= secondOperand){
             result *= i;
             i++;
         }
