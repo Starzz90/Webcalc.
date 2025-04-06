@@ -73,8 +73,9 @@ function calculate(firstOperand, secondOperand, operator) {
             i++;
        return result;
     } else if ( operator === "Sin"){
-        let sinVal = Math.sin(firstOperand);
-        return sinVal;
+       secondOperand = 1;
+        let sinVal = firstOperand * (Math.PI/180);
+        return sinVal * secondOperand;
     }
 
     return secondOperand;
