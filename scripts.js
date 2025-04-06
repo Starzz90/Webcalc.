@@ -1,4 +1,4 @@
-const calculator = {
+   const calculator = {
     displayValue: '0',
     firstOperand: null,
     waitingForSecondOperand: false,
@@ -71,8 +71,10 @@ function calculate(firstOperand, secondOperand, operator) {
         while(i <= secondOperand){
             result *= i;
             i++;
-        }
        return result;
+    } else if ( operator === "Sin"){
+        let sinVal = Math.sin(firstOperand);
+        return sinVal;
     }
 
     return secondOperand;
