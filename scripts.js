@@ -68,9 +68,10 @@ function calculate(firstOperand, secondOperand, operator) {
     } else if (operator === "Factorial"){
         let result = firstOperand;
         let i = 1;
-        while(i <= secondOperand)
+        while(i <= secondOperand){
             result *= i;
             i++;
+        }
        return result;
    }
     return secondOperand;
